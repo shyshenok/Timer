@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #mount-point {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+.timer-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.timer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
